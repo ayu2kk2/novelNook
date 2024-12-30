@@ -1,0 +1,98 @@
+[
+    {
+        "id":1,
+        "name":"Shadows of life",
+        "title":"A Tale of Love, Loss, and Redemption",
+        "price": 0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341897.jpg?t=st=1735464520~exp=1735468120~hmac=6e01d6775322ef4aaf6752ed05e4fd4fb4cb0a53a2a9fd10be189d765df59669&w=1060"
+    },
+    {
+        "id":2,
+        "name":"Financial Freedom",
+        "title":"Invest Smart: A Modern Guide to Building Wealth",
+        "price": 15,
+        "category":"Invest",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341897.jpg?t=st=1735464520~exp=1735468120~hmac=6e01d6775322ef4aaf6752ed05e4fd4fb4cb0a53a2a9fd10be189d765df59669&w=1060"
+    },
+    {
+        "id":3,
+        "name":"The Mind's Edge",
+        "title":"Unlocking Creativity: Techniques for Innovation and Success",
+        "price": 10,
+        "category":"Selfhelp",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341897.jpg?t=st=1735464520~exp=1735468120~hmac=6e01d6775322ef4aaf6752ed05e4fd4fb4cb0a53a2a9fd10be189d765df59669&w=1060"
+    },
+    {
+        "id":4,
+        "name":"The Midnight Hour",
+        "title":"A Chilling Journey Into the Unknown",
+        "price": 0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341897.jpg?t=st=1735464520~exp=1735468120~hmac=6e01d6775322ef4aaf6752ed05e4fd4fb4cb0a53a2a9fd10be189d765df59669&w=1060"
+    },
+    {
+            "id":5,
+            "name":"Realm of Shadows",
+            "title":"A Fantasy Epic of Heroes and Legends",
+            "price": 0,
+            "category":"Free",
+            "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341897.jpg?t=st=1735464520~exp=1735468120~hmac=6e01d6775322ef4aaf6752ed05e4fd4fb4cb0a53a2a9fd10be189d765df59669&w=1060"
+    },
+    {
+        "id":6,
+        "name":"Tech Simplified",
+        "title":"Understanding the Basics of Technology",
+        "price": 20,
+        "category":"Tech",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341897.jpg?t=st=1735464520~exp=1735468120~hmac=6e01d6775322ef4aaf6752ed05e4fd4fb4cb0a53a2a9fd10be189d765df59669&w=1060"
+    },
+    {
+        "id":7,
+        "name":"Legends of the Past",
+        "title":"Heroes and Empires: A Dive into Ancient History",
+        "price": 20,
+        "category":"History",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341897.jpg?t=st=1735464520~exp=1735468120~hmac=6e01d6775322ef4aaf6752ed05e4fd4fb4cb0a53a2a9fd10be189d765df59669&w=1060"
+    },
+    {
+        "id":8,
+        "name":"The Silent Whisper",
+        "title":"A Mystery That Will Keep You Guessing",
+        "price": 0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341897.jpg?t=st=1735464520~exp=1735468120~hmac=6e01d6775322ef4aaf6752ed05e4fd4fb4cb0a53a2a9fd10be189d765df59669&w=1060"
+    },
+    {
+        "id":9,
+        "name":"Beneath the Stars",
+        "title":"An Enchanting Story of Dreams and Destiny",
+        "price": 0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341897.jpg?t=st=1735464520~exp=1735468120~hmac=6e01d6775322ef4aaf6752ed05e4fd4fb4cb0a53a2a9fd10be189d765df59669&w=1060"
+    },
+    {
+        "id":10,
+        "name":"Mastering Music",
+        "title":"Mastering the Keys: A Journey Through Piano Classics",
+        "price": 10,
+        "category":"Music",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341897.jpg?t=st=1735464520~exp=1735468120~hmac=6e01d6775322ef4aaf6752ed05e4fd4fb4cb0a53a2a9fd10be189d765df59669&w=1060"
+    },
+    {
+        "id":11,
+        "name":"Echoes of War",
+        "title":"A Riveting Historical Novel of Courage",
+        "price": 0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341897.jpg?t=st=1735464520~exp=1735468120~hmac=6e01d6775322ef4aaf6752ed05e4fd4fb4cb0a53a2a9fd10be189d765df59669&w=1060"
+    },
+    {
+        "id":12,
+        "name":"Forgotten Island",
+        "title":"An Adventure That Transcends Time",
+        "price": 0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341897.jpg?t=st=1735464520~exp=1735468120~hmac=6e01d6775322ef4aaf6752ed05e4fd4fb4cb0a53a2a9fd10be189d765df59669&w=1060"
+    }
+]
