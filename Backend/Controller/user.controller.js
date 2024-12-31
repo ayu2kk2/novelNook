@@ -1,7 +1,7 @@
 // Always remember we define function in controller
 
 import User from "../Model/user.model.js"
-import bcrypt from "bcrypt"
+import bcryptjs from "bcryptjs"
 
 //Signup
 export const signup = async (req,resp) =>{
@@ -13,7 +13,7 @@ console.log(email)
 if(user){
     return resp.status(400).json({message:"User already exists"})
 } 
-const hashPassword = await bcrypt.hash(password,10)
+const hashPassword = await bcryptjs.hash(password,10)
     const createUser = new User({
         fullname:fullname,
         email:email,
@@ -38,7 +38,7 @@ export const login = async(req,resp)=>{
     try {
     const {email, password} = req.body
     const user = await User.findOne({email})
-    const isMatch= await bcrypt.compare(password,user.password)
+    const isMatch= await bcryptjs.compare(password,user.password)
     // await should be used here while comparing bcrypt
     if (!user || !isMatch) {
         return resp.status(400).json({message:"Invalid credentials"})
