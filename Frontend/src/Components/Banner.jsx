@@ -30,7 +30,7 @@ function Banner() {
    </label>
        </div>
 
-       <button className="btn btn-secondary mt-6 bg-yellow-400 border-none hover:bg-yellow-500 cursor-pointer ">Secondary</button>
+       <button className="btn btn-secondary mt-6 bg-yellow-400 border-none hover:bg-yellow-500 cursor-pointer ">Get started</button>
 
         </div>
         <div className="order-1 w-full md:w-1/2">
