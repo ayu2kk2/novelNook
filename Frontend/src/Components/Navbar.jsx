@@ -76,7 +76,7 @@ if (theme === "dark") {
       </div>
       <ul
         tabIndex={0}
-        className="menu menu-sm dropdown-content bg-slate-100 rounded-box z-[1] mt-3 w-52 p-2 shadow ">
+        className="menu menu-sm dropdown-content bg-slate-800 dark:bg-gray-300 rounded-box z-[1] mt-3 w-52 p-2 shadow ">
         {navItems}
       </ul>
     </div>
