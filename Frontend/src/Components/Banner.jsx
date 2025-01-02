@@ -1,5 +1,8 @@
 // import Bannerimg from "../../public/Banner.png"
-import Bannerimg2 from "../../public/Banner2.png"
+// import Bannerimg2 from "../../public/Banner2.png"
+import Bannerimg2 from '../Banner2.png';
+
+
 function Banner() {
   return (
     <>
@@ -34,7 +37,7 @@ function Banner() {
 
         </div>
         <div className="order-1 w-full md:w-1/2">
-        <img src={Bannerimg2} className="mt-20" alt="" />
+        <img src={Bannerimg2} className="mt-20" alt="Banner" />
         </div>
     </div>
       

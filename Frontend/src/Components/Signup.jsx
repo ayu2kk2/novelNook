@@ -20,7 +20,7 @@ function Signup() {
             email:data.email,
             password:data.password
           }
-        await axios.post("http://localhost:4001/user/signup",userInfo)
+        await axios.post(`http://localhost:4001/user/signup`,userInfo)
         .then((resp)=>{ //.then will return promise
           console.log(resp.data)
           if(resp.data){

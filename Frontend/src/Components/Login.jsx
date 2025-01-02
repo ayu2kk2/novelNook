@@ -13,7 +13,7 @@ function Login() {
             password:data.password
           }
         await axios
-        .post("http://localhost:4001/user/login",userInfo)
+        .post(`http://localhost:4001/user/login`,userInfo)
         .then((response)=>{ //.then will return promise
           console.log(response.data)
           if(response.data){
