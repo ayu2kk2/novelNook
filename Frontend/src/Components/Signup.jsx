@@ -3,6 +3,7 @@ import Login from "./Login"
 import toast from "react-hot-toast";
 import axios from "axios";
 import { useForm } from "react-hook-form";
+import { BASE_URL } from "../../url";
 
 
 
@@ -20,13 +21,16 @@ function Signup() {
             email:data.email,
             password:data.password
           }
-        await axios.post(`http://localhost:4001/user/signup`,userInfo)
+        await axios.post(`${BASE_URL}/user/signup`,userInfo)
         .then((resp)=>{ //.then will return promise
           console.log(resp.data)
           if(resp.data){
             toast.success('Signup Successfull');
             navigate(from, {replace:true})
+            setTimeout(()=>{
             window.location.reload()
+            },1000)
+            
           }
           localStorage.setItem("Users",JSON.stringify(resp.data.user)) 
           //JSON.stringify() is used to parse the data

@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 
 import axios from "axios"
 import { useEffect, useState } from "react"
+import { BASE_URL } from "../../url"
 
 function Course() {
 // Axios 
@@ -11,7 +12,7 @@ useEffect(()=>{
   const getBook = async()=>{
     try {
       // const res = await axios.get(`${import.meta.env.REACT_APP_BACKEND_URL}/books`)
-      const res = await axios.get(`http://localhost:4001/books`)
+      const res = await axios.get(`${BASE_URL}/books`)
      
      console.log(res.data)
      setBook(res.data)

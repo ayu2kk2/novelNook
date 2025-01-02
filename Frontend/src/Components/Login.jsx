@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 import { useForm } from "react-hook-form";
 import axios from "axios";
 import toast from 'react-hot-toast';
+import { BASE_URL } from "../../url";
 
 function Login() {
     const { register,
@@ -13,7 +14,7 @@ function Login() {
             password:data.password
           }
         await axios
-        .post(`http://localhost:4001/user/login`,userInfo)
+        .post(`${BASE_URL}/user/login`,userInfo)
         .then((response)=>{ //.then will return promise
           console.log(response.data)
           if(response.data){
